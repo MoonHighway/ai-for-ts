@@ -6,8 +6,6 @@ Today we build real AI features in TypeScript with the **Vercel AI SDK (v6)** an
 the **AI Gateway**. We start with a single model call and end with a production-ready
 RAG feature: streaming, structured, type-safe, and cost-aware.
 
-You should be comfy with TypeScript, Node, and `async/await`. No AI experience required.
-
 ---
 
 ## ⚙️ Setup
