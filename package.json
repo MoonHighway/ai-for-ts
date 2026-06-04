@@ -1,0 +1,30 @@
+{
+  "name": "ai-for-ts-devs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "CascadiaJS 2026, AI for TypeScript Developers (Eve Porcello)",
+  "scripts": {
+    "hello": "tsx src/01-hello.ts",
+    "stream": "tsx src/02-stream.ts",
+    "chat": "tsx src/03-chat.ts",
+    "system": "tsx src/04-system-prompt.ts",
+    "structured": "tsx src/05-structured.ts",
+    "errors": "tsx src/06-errors.ts",
+    "embeddings": "tsx src/07-embeddings.ts",
+    "rag": "tsx src/08-rag.ts",
+    "production": "tsx src/09-production.ts",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "ai": "^6.0.0",
+    "dotenv": "^16.4.0",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.19",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
