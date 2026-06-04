@@ -21,7 +21,7 @@ export async function POST(req: Request) {
 
   const result = streamText({
     model: 'anthropic/claude-sonnet-4.6',
-    messages: convertToModelMessages(messages),
+    messages: await convertToModelMessages(messages),
   });
 
   return result.toUIMessageStreamResponse();
